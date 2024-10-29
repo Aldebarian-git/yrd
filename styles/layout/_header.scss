@@ -1,0 +1,142 @@
+header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+  margin: auto;
+  max-width: 1272px;
+  width: 80%;
+  @media screen {
+    
+  
+    
+  }
+
+    .arrow {
+    color: $text-color1;
+    border: 2px solid $text-color1;
+    border-radius: 50%;
+    font-size: 3vh;
+    padding: 12px 12px;
+    height: 7vh;
+    width: 7vh;
+    @include centerChild;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+
+  h1 {
+    color: $text-color1;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 5rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    @media screen and (max-width: 860px) {
+      font-size: 3rem; 
+  }
+  }
+
+  p {
+    color: $text-p-color;
+    font-family: "Merriweather";
+    width: 80%;
+    text-align: center;
+    font-size: 1.5rem;
+
+    font-style: italic;
+    font-weight: 100;
+  }
+}
+
+nav {
+  background-color: rgba(161, 166, 167, 0.329);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 1px;
+  font-size: 3rem;
+  font-weight: 900;
+  color: $nav-color1;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  li {
+    list-style: none;
+    padding: 0.5rem;  
+    @include centerChild;
+    transition: 0.3s ease;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    min-height: 65px;
+    @media screen and (max-width: 860px) {
+      @include centerChild;      
+    min-width: 33.33%;
+    text-align: center;     
+   }
+
+
+  }
+  }
+
+ 
+  
+  
+
+
+
+  .nav-left {
+    display: flex;
+    @media screen and (max-width: 860px) {
+    display: flex;
+    justify-content: space-between;      
+    width: 100%;
+        
+   }
+
+    & > :first-child {
+      background-color: $bg-contact-color;      
+      color: black;
+    }
+
+    li {
+      &:hover {
+        background-color: $bg-contact-color;
+        color: black;
+      }
+
+      
+    }
+
+  }
+
+  .nav-right {
+    display: flex;
+    gap: 2rem;
+    margin: 0 1rem;    
+    @include centerChild;
+
+    i {
+      color: $text-color1;
+      font-size: 16px;
+      transition: 0.3s ease;
+      &:hover {
+        transform: scale(1.5);
+      }
+    }
+    @media screen and (max-width: 860px) {
+      display: none;
+      
+    }
+  }
+

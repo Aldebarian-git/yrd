@@ -607,7 +607,7 @@ nav li {
 }
 
 body {
-  background: url(./images/bg.jpg) fixed center/cover;
+  background: url(../images/bg.jpg) fixed center/cover;
 }
 
 .button {

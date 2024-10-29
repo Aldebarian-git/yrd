@@ -607,11 +607,7 @@ nav li {
 }
 
 body {
-<<<<<<< HEAD
-  background: url(../images/bg.jpg) fixed center/cover;
-=======
-  background: url(../images/bg.jpg) fixed center/cover;
->>>>>>> 1a4f421814166113de1d9b52ffd6b573712595c0
+  background: url(./images/bg.jpg) fixed center/cover;
 }
 
 .button {

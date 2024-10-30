@@ -1,20 +1,24 @@
-body {
-  background: url(../images/bg.jpg) fixed center/cover;
-  &:before {
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background: rgb(32, 32, 32);
-    animation: animeBefore 1.5s ease forwards;
-    animation-delay: 0.15s;
+body{
+    background: url(/images/bg.jpg) fixed center/cover
+    ;
+    &:before{
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background: rgb(32, 32, 32) ;
+        animation: animeBefore 1.5s ease forwards;
+        animation-delay: 0.15s;
 
-    @keyframes animeBefore {
-      to {
-        opacity: 0;
-      }
+        @keyframes animeBefore {
+            to{
+                opacity: 0;
+            }
+            
+        }
+
     }
-  }
-}
+        
+    }

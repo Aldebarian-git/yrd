@@ -123,7 +123,7 @@ h4 {
 .box1-img {
   width: 100%;
   min-height: 400px;
-  background: url(/images/pic01.jpg) center/cover;
+  background: url(../images/pic01.jpg) center/cover;
 }
 
 .box2 {
@@ -171,7 +171,7 @@ h4 {
   padding: 2rem 3rem;
 }
 .box2 .box-left .box-left-img {
-  background: url(/images/pic02.jpg) center/cover;
+  background: url(../images/pic02.jpg) center/cover;
   min-height: 250px;
   width: 100%;
   margin: auto;
@@ -190,7 +190,7 @@ h4 {
   padding: 2rem 3rem;
 }
 .box2 .box-right .box-right-img {
-  background: url(/images/pic03.jpg) center/cover;
+  background: url(../images/pic03.jpg) center/cover;
   min-height: 250px;
   width: 100%;
   margin: auto;
@@ -589,7 +589,7 @@ nav li {
 }
 
 body {
-  background: url(/images/bg.jpg) fixed center/cover;
+  background: url(../images/bg.jpg) fixed center/cover;
 }
 body:before {
   content: "";
